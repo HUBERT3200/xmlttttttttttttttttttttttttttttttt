@@ -2,7 +2,7 @@
 var xhr = new XMLHttpRequest();
 
 // Ustawiamy metodę i ścieżkę do pliku XML
-xhr.open("GET", "../xml.xml", true);
+xhr.open("GET", "xml.xml", true);
 
 // Ustawiamy typ odpowiedzi na dokument XML
 xhr.overrideMimeType("application/xml");
