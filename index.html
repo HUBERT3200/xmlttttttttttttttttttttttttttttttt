@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Przepisy Kulinarne</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Przepisy Kulinarne</h1>
+    </header>
+
+    <main>
+      <section>
+        <ul id="jsonList">
+          <li class="dont">
+            <h1>Spaghetti Bolognese</h1>
+            <hr />
+            <p><strong>Składniki:</strong></p>
+            <ul>
+              <li>400g makaronu spaghetti</li>
+              <li>
+                500g mięsa mielonego (wołowego, wieprzowego lub mieszanki)
+              </li>
+              <li>1 duża cebula, drobno posiekana</li>
+              <li>2 ząbki czosnku, drobno posiekane</li>
+              <li>400g pomidorów, pokrojonych w kostkę</li>
+              <li>200ml sosu pomidorowego</li>
+              <li>1 łyżeczka suszonego oregano</li>
+              <li>1 łyżeczka suszonego bazylii</li>
+              <li>Sól i pieprz do smaku</li>
+              <li>Olej do smażenia</li>
+            </ul>
+            <p><strong>Instrukcje:</strong></p>
+            <ol>
+              <li>Gotuj makaron według instrukcji na opakowaniu.</li>
+              <li>
+                Na rozgrzanym oleju smaż cebulę i czosnek, aż będą miękkie.
+              </li>
+              <li>
+                Dodaj mięso mielone i smaż, aż zmięknie i uzyska złoty kolor.
+              </li>
+              <li>
+                Wlej sos pomidorowy, dodaj pomidory, oregano, bazylię, sól i
+                pieprz. Gotuj na małym ogniu przez 20-30 minut.
+              </li>
+              <li>
+                Podawaj sos na ugotowanym makaronie. Posyp parmezanem, jeśli
+                lubisz.
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </section>
+
+      <aside>
+        <label for="search">Wyszukiwarka:</label>
+        <input type="text" id="search" name="search" />
+
+        <label for="categoryy">Kategoria:</label>
+        <select id="category" name="category">
+          <option value="all">Wszystko</option>
+          <option value="appetizer">Przystawki</option>
+          <option value="main">Dania główne</option>
+          <option value="dessert">Desery</option>
+          <option value="soup">Zupy</option>
+        </select>
+      </aside>
+    </main>
+    <footer>
+      <p>2024 Przepisy Kulinarne.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
