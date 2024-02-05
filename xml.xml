@@ -1,20 +1,93 @@
-<przepis>
-  <nazwa>Krem z dyni</nazwa>
-  <składniki>
-    <składnik>1 kg dyni, obranej i pokrojonej</składnik>
-    <składnik>1 cebula, posiekana</składnik>
-    <składnik>2 ząbki czosnku, posiekane</składnik>
-    <składnik>1 ziemniak, obrany i pokrojony</składnik>
-    <składnik>1 l bulionu warzywnego</składnik>
-    <składnik>1/2 łyżeczki gałki muszkatołowej</składnik>
-    <składnik>Sól i pieprz do smaku</składnik>
-    <składnik>Łyżka oliwy z oliwek</składnik>
-  </składniki>
-  <kroki>
-    <krok>W garnku zeszklij cebulę i czosnek na oliwie.</krok>
-    <krok>Dodaj dynię, ziemniaka i bulion. Gotuj do miękkości warzyw.</krok>
-    <krok>Zmiksuj zupa na gładki krem.</krok>
-    <krok>Dodaj gałkę muszkatołową, sól i pieprz do smaku.</krok>
-    <krok>Podawaj gorący, dekorując świeżymi ziołami.</krok>
-  </kroki>
-</przepis>
+<przepisy>
+  <!-- Przepis 1 -->
+  <przepis>
+    <nazwa>Krem z dyni</nazwa>
+    <składniki>
+      <składnik>1 kg dyni, obranej i pokrojonej</składnik>
+      <składnik>1 cebula, posiekana</składnik>
+      <składnik>2 ząbki czosnku, posiekane</składnik>
+      <składnik>1 ziemniak, obrany i pokrojony</składnik>
+      <składnik>1 l bulionu warzywnego</składnik>
+      <składnik>1/2 łyżeczki gałki muszkatołowej</składnik>
+      <składnik>Sól i pieprz do smaku</składnik>
+      <składnik>Łyżka oliwy z oliwek</składnik>
+    </składniki>
+    <kroki>
+      <krok>W garnku zeszklij cebulę i czosnek na oliwie.</krok>
+      <krok>Dodaj dynię, ziemniaka i bulion. Gotuj do miękkości warzyw.</krok>
+      <krok>Zmiksuj zupa na gładki krem.</krok>
+      <krok>Dodaj gałkę muszkatołową, sól i pieprz do smaku.</krok>
+      <krok>Podawaj gorący, dekorując świeżymi ziołami.</krok>
+    </kroki>
+  </przepis>
+
+  <!-- Przepis 2 -->
+  <przepis>
+    <nazwa>Kurczak w miodzie i musztardzie</nazwa>
+    <składniki>
+      <składnik>4 filety z kurczaka</składnik>
+      <składnik>3 łyżki miodu</składnik>
+      <składnik>2 łyżki musztardy</składnik>
+      <składnik>2 ząbki czosnku, posiekane</składnik>
+      <składnik>1 łyżka sosu sojowego</składnik>
+      <składnik>Sól i pieprz do smaku</składnik>
+      <składnik>Łyżka oleju roślinnego</składnik>
+      <składnik>Suszone zioła prowansalskie do posypania</składnik>
+    </składniki>
+    <kroki>
+      <krok>W misce wymieszaj miód, musztardę, posiekany czosnek, sos sojowy, sól i pieprz.</krok>
+      <krok>Oczyszczony kurczak posmaruj marynatą i odstaw na minimum 30 minut (najlepiej, jeśli zostanie na noc w lodówce).</krok>
+      <krok>Na rozgrzaną patelnię dodaj olej roślinny.</krok>
+      <krok>Smaż kurczaka z obu stron na złoty kolor.</krok>
+      <krok>Pod koniec smażenia polej pozostałą marynatą.</krok>
+      <krok>Posyp suszonymi ziołami prowansalskimi przed podaniem.</krok>
+    </kroki>
+  </przepis>
+
+  <!-- Przepis 3 -->
+  <przepis>
+    <nazwa>Ratatouille</nazwa>
+    <składniki>
+      <składnik>1 bakłażan, pokrojony w kostkę</składnik>
+      <składnik>1 cukinia, pokrojona w kostkę</składnik>
+      <składnik>1 papryka czerwona, pokrojona w kostkę</składnik>
+      <składnik>1 cebula, pokrojona w kostkę</składnik>
+      <składnik>2 pomidory, pokrojone w kostkę</składnik>
+      <składnik>2 ząbki czosnku, posiekane</składnik>
+      <składnik>Świeże zioła (np. tymianek, rozmaryn)</składnik>
+      <składnik>Sól i pieprz do smaku</składnik>
+      <składnik>Oliwa z oliwek</składnik>
+    </składniki>
+    <kroki>
+      <krok>Na patelni rozgrzej oliwę, podsmaż cebulę i czosnek.</krok>
+      <krok>Dodaj bakłażana, cukinię, paprykę i smaż przez kilka minut.</krok>
+      <krok>Wsyp pomidory, dodaj zioła, sól i pieprz.</krok>
+      <krok>Duś pod przykryciem, aż warzywa zmiękną.</krok>
+      <krok>Podawaj jako dodatek do makaronu czy ryżu.</krok>
+    </kroki>
+  </przepis>
+
+  <!-- Przepis 4 -->
+  <!-- Dodaj tutaj kolejny przepis -->
+
+  <!-- Przepis 5 -->
+  <!-- Dodaj tutaj kolejny przepis -->
+
+  <!-- Przepis 6 -->
+  <!-- Dodaj tutaj kolejny przepis -->
+
+  <!-- Przepis 7 -->
+  <!-- Dodaj tutaj kolejny przepis -->
+
+  <!-- Przepis 8 -->
+  <!-- Dodaj tutaj kolejny przepis -->
+
+  <!-- Przepis 9 -->
+  <!-- Dodaj tutaj kolejny przepis -->
+
+  <!-- Przepis 10 -->
+  <!-- Dodaj tutaj kolejny przepis -->
+
+  <!-- Przepis 11 -->
+  <!-- Dodaj tutaj kolejny przepis -->
+</przepisy>
