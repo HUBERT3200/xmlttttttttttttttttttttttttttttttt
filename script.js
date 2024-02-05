@@ -1,4 +1,4 @@
-console.info("0.0.1");
+console.info("0.0.2");
 
 // Tworzymy obiekt XMLHttpRequest
 var xhr = new XMLHttpRequest();
