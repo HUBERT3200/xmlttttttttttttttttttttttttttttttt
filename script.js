@@ -1,6 +1,8 @@
 // Tworzymy obiekt XMLHttpRequest
 var xhr = new XMLHttpRequest();
 
+var ul = document.getElementById('id="jsonList"');
+
 // Ustawiamy metodę i ścieżkę do pliku XML
 xhr.open("GET", "xml.xml", true);
 
@@ -36,7 +38,7 @@ function processXML(xmlDoc) {
   var kroki = xmlDoc.getElementsByTagName("krok");
 
   // Przetwarzamy elementy
-  console.log("Nazwa przepisu: " + nazwa);
+  ul.innerHTML = nazwa;
 
   console.log("Składniki:");
   for (var i = 0; i < skladniki.length; i++) {
