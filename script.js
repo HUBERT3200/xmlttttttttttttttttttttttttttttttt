@@ -3,10 +3,14 @@ console.info("0.0.1");
 // Tworzymy obiekt XMLHttpRequest
 var xhr = new XMLHttpRequest();
 
-var ul = document.getElementById('id="jsonList"');
+var ul = document.getElementById("jsonList");
 
 // Ustawiamy metodę i ścieżkę do pliku XML
-xhr.open("GET", "xml.xml", true);
+xhr.open(
+  "GET",
+  "https://hubert3200.github.io/xmlttttttttttttttttttttttttttttttt/xml",
+  true
+);
 
 // Ustawiamy typ odpowiedzi na dokument XML
 xhr.overrideMimeType("application/xml");
@@ -35,20 +39,27 @@ xhr.send();
 // Funkcja przetwarzająca dokument XML
 function processXML(xmlDoc) {
   // Pobieramy elementy z dokumentu XML
+  var tekstDoWrzucenia = "nie działa";
   var nazwa = xmlDoc.getElementsByTagName("nazwa")[0].childNodes[0].nodeValue;
   var skladniki = xmlDoc.getElementsByTagName("składnik");
   var kroki = xmlDoc.getElementsByTagName("krok");
 
   // Przetwarzamy elementy
-  ul.innerHTML = nazwa;
+  tekstDoWrzucenia = `<li class="dont"><h1> ${nazwa} </h1><hr /><p><strong>Składniki:</strong></p><ul>`;
 
-  console.log("Składniki:");
   for (var i = 0; i < skladniki.length; i++) {
-    console.log("- " + skladniki[i].childNodes[0].nodeValue);
+    tekstDoWrzucenia += "<li>" + skladniki[i].childNodes[0].nodeValue + "</li>";
   }
 
-  console.log("Kroki:");
+  tekstDoWrzucenia += "</ul>";
+
+  tekstDoWrzucenia += "<p><strong>Instrukcje:</strong></p><ol>";
   for (var j = 0; j < kroki.length; j++) {
-    console.log(j + 1 + ". " + kroki[j].childNodes[0].nodeValue);
+    tekstDoWrzucenia += "<li>" + kroki[j].childNodes[0].nodeValue + "</li>";
   }
+  tekstDoWrzucenia += "</ol>";
+
+  tekstDoWrzucenia += "</li>";
+  console.log(tekstDoWrzucenia);
+  ul.innerHTML = tekstDoWrzucenia;
 }
